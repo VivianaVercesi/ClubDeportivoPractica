@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041120"
+    tools:context=".GenerateIdCard">
+
+    <ImageView
+        android:id="@+id/imgLogotype"
+        android:layout_width="198dp"
+        android:layout_height="119dp"
+        android:layout_weight="4"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <EditText
+        android:id="@+id/txtClientId"
+        android:layout_width="285dp"
+        android:layout_height="43dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded"
+        android:clickable="false"
+        android:fontFamily="@font/audiowide"
+        android:hint="ID CLIENTE"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="288dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:backgroundTint="#6393B5"
+        android:fontFamily="@font/audiowide"
+        android:includeFontPadding="true"
+        android:text="Generar Carnet"
+        android:textAlignment="center"
+        android:textColor="#041120"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="288dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:backgroundTint="#6393B5"
+        android:fontFamily="@font/audiowide"
+        android:includeFontPadding="true"
+        android:text="VOLVER"
+        android:textAlignment="center"
+        android:textColor="#041120"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="620dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
