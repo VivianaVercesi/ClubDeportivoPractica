@@ -111,7 +111,7 @@
         android:backgroundTint="#6393B5"/>
 
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnBackAdM"
         android:text="VOLVER"
         android:fontFamily="@font/audiowide"
         android:textColor="#041120"

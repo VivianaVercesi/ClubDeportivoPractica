@@ -18,12 +18,16 @@ class PaymentActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val btnPayment: Button =findViewById(R.id.btnPay)
-
-        btnPayment.setOnClickListener {
-            val intent = Intent(this@PaymentActivity, PaymentReceipt::class.java)
-            startActivity(intent)
+        val button1 = findViewById<Button>(R.id.btnPay)
+        button1.setOnClickListener{
+            val intent1 = Intent(this, PaymentReceiptActivity::class.java)
+            startActivity(intent1)
         }
+        val button2 = findViewById<Button>(R.id.btnBackAM)
+        button2.setOnClickListener{
+            val intent2 = Intent(this, AdminMenuActivity::class.java)
+            startActivity(intent2)
+        }
+
     }
 }

@@ -13,10 +13,15 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_sign_up)
-        val button = findViewById<Button>(R.id.btnClientSignUp)
-        button.setOnClickListener{
-            val intent = Intent(this, PaymentActivity::class.java)
-            startActivity(intent)
+        val button1 = findViewById<Button>(R.id.btnClientSignUp)
+        button1.setOnClickListener{
+            val intent1 = Intent(this, PaymentActivity::class.java)
+            startActivity(intent1)
+        }
+        val button2 = findViewById<Button>(R.id.btnBackAdM)
+        button2.setOnClickListener{
+            val intent2 = Intent(this, PaymentActivity::class.java)
+            startActivity(intent2)
         }
     }
 }

@@ -13,16 +13,16 @@
         android:theme="@style/Theme.ClubDeportivoPractica"
         tools:targetApi="31">
         <activity
-            android:name=".GenerateIdCard"
+            android:name=".GenerateIdCardActivity"
             android:exported="false" />
         <activity
-            android:name=".PaymentReceipt"
+            android:name=".PaymentReceiptActivity"
             android:exported="false" />
         <activity
-            android:name=".IdCard"
+            android:name=".IdCardActivity"
             android:exported="false" />
         <activity
-            android:name=".DailyExpirations"
+            android:name=".DailyExpirationsActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivitiesActivity"
