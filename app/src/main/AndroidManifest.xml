@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ClubDeportivoPractica"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityConfirmActivity"
+            android:exported="false" />
+        <activity
             android:name=".GenerateIdCardActivity"
             android:exported="false" />
         <activity

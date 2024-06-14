@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/txtClientId"
-        android:inputType="text"
+        android:inputType="number"
         android:hint="ID CLIENTE"
         android:fontFamily="@font/audiowide"
         android:textColor="#FFFFFF"

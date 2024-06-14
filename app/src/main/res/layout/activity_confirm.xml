@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityConfirmActivity"
+    android:orientation="vertical"
+    android:background="#041120"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgLogotype"
+        android:src="@drawable/logo"
+        android:layout_width="176dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:id="@+id/txtActivityConfirm"
+        android:text="Actividad registrada con éxito"
+        android:textAlignment="center"
+        android:layout_width="260dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:layout_weight="4"
+        android:fontFamily="@font/audiowide"
+        android:textColor="#6393B5"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/btnBackAdminMe"
+        android:text="VOLVER"
+        android:fontFamily="@font/audiowide"
+        android:textColor="#041120"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:includeFontPadding="true"
+        android:layout_width="260dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_weight="1"
+        android:backgroundTint="#6393B5"/>
+
+
+
+</LinearLayout>
